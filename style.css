@@ -395,6 +395,80 @@ li{
 }
 
 
+/* Add these styles to your style.css file */
+
+/* For the home section layout */
+.home {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.home-content {
+    position: relative;
+    max-width: 600px;
+    z-index: 2;
+}
+
+/* For the spline-viewer (robot) */
+.background {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 80%;
+    z-index: 1;
+}
+
+
+/* Make it responsive */
+@media (max-width: 1200px) {
+    .background {
+        width: 40%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .home-content {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .background {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        top: auto;
+        right: auto;
+        transform: none;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .background {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .background {
+        height: 250px;
+    }
+}
+
+
 
 
 
@@ -640,6 +714,8 @@ li{
     font-weight: 500;
     margin-bottom: 15px;
 }
+
+
 
 .services-list div a{
     text-decoration: none;
