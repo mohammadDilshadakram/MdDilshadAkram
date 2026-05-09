@@ -54,13 +54,13 @@ export default function Contact() {
                             </div>
                             +91 6291198856
                         </div>
-                        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-xl hover:text-electric-blue transition-colors group">
+                        <a href="https://www.linkedin.com/in/md-dilshad-akram-4b6660254/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-xl hover:text-electric-blue transition-colors group">
                             <div className="p-3 bg-white/5 rounded-full group-hover:bg-electric-blue group-hover:text-white transition-colors">
                                 <Linkedin className="w-6 h-6" />
                             </div>
                             LinkedIn Profile
                         </a>
-                        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-xl hover:text-electric-blue transition-colors group">
+                        <a href="https://github.com/mohammadDilshadakram" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-xl hover:text-electric-blue transition-colors group">
                             <div className="p-3 bg-white/5 rounded-full group-hover:bg-electric-blue group-hover:text-white transition-colors">
                                 <Github className="w-6 h-6" />
                             </div>

@@ -71,7 +71,7 @@ export default function BentoGrid() {
 
                         <div className="relative z-10 mt-auto pt-6 border-t border-white/5 flex justify-between items-center">
                             <span className="text-sm text-gray-500 font-mono">Based in India • Open to Remote</span>
-                            <a href="/resume.pdf" download className="group/btn flex items-center gap-2 px-5 py-2.5 bg-white text-black font-bold rounded-lg hover:bg-gray-200 transition-all active:scale-95">
+                            <a href="/Md_Dilshad_Akram_Resume.pdf" download="Md_Dilshad_Akram_Resume.pdf" className="group/btn flex items-center gap-2 px-5 py-2.5 bg-white text-black font-bold rounded-lg hover:bg-gray-200 transition-all active:scale-95">
                                 <Download className="w-4 h-4 group-hover/btn:translate-y-0.5 transition-transform" />
                                 <span>RESUME</span>
                             </a>

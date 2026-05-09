@@ -90,15 +90,19 @@ export default function Hero() {
                 {/* Magnetic Buttons */}
                 <div className="hero-text-reveal flex flex-wrap gap-6 items-center">
                     <Magnetic>
-                        <Button href="#projects" variant="primary" className="shadow-[0_0_20px_rgba(0,112,243,0.5)] animate-pulse">
-                            View Projects
-                        </Button>
+                        <a href="https://github.com/mohammadDilshadakram" target="_blank" rel="noopener noreferrer">
+                            <Button variant="primary" className="shadow-[0_0_20px_rgba(0,112,243,0.5)] animate-pulse">
+                                View Projects
+                            </Button>
+                        </a>
                     </Magnetic>
 
                     <Magnetic strength={30}>
-                        <Button href="#contact" variant="secondary">
-                            Contact Me
-                        </Button>
+                        <a href="https://www.linkedin.com/in/md-dilshad-akram-4b6660254/" target="_blank" rel="noopener noreferrer">
+                            <Button variant="secondary">
+                                Contact Me
+                            </Button>
+                        </a>
                     </Magnetic>
                 </div>
             </div>
